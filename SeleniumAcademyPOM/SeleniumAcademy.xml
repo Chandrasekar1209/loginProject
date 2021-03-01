@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Madison_Academy_Test_Suite">
+<listeners>
+<listener class-name="com.htc.utility.TestNGListerners"></listener>
+</listeners>
+<test name="Login_Users_Test_Case">
+<!--  <parameter name="emailAddress" value="seky1209@gmail.com"></parameter>
+<parameter name="passWord" value="Seky@123"></parameter> -->
+<classes>
+<class name="com.htc.testCase.Test_Account_LoginUserValid"></class>
+
+</classes>
+
+</test> 
+
+
+
+<!-- <test name="Register_Users_Test_Case">
+<classes>
+<class name="com.htc.testCases.Test_Account_UserRegistration"></class>
+
+</classes>
+
+</test>  -->
+
+</suite>
